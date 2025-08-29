@@ -1,0 +1,37 @@
+.navbar-container {
+    background: hsla(0, 63%, 59%, 0.616);
+    padding: 20px;
+    border-radius: 25px;
+    filter: blur(0.2px);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between
+}
+
+ul > li {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 2px 6px 0;
+    background: black;
+    padding: 2px 5px;
+    border-radius: 3px;
+
+}
+
+ul > li:hover {
+    background:  hsl(300, 9%, 90%, 0.692);
+    cursor: pointer;
+    color: black
+}
+
+.brand-logo {
+    border-radius: 50%;
+    width: 60px;
+    box-shadow: 0, 0, 1000%, black;
+}
+
+.brand {
+    font-size: 2rem;
+}
