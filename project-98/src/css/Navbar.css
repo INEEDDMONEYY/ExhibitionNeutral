@@ -1,14 +1,16 @@
 .navbar-container {
-    background: hsla(0, 63%, 59%, 0.616);
+    background: hsl(0, 63%, 59%, 0.616);
     padding: 20px;
     border-radius: 25px;
-    filter: blur(0.2px);
+    margin-bottom: 10px;
 }
 
 nav {
     display: flex;
     justify-content: space-between
 }
+
+/*Create custom classes for the list elements*/
 
 ul > li {
     list-style-type: none;

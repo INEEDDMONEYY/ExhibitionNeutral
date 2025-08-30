@@ -1,10 +1,11 @@
 import '../css/Navbar.css'
 import Logo from '../assets/Traverse.jpg'
+//import Sidebar from '../components/Sidebar'
 
 //Navbar component 
 function Navbar() {
-    //Collapse function
-    const navbarToggler = document.getElementById('navbar-toggler');
+    //Future functionality
+    
 
     //Render content
     return(
@@ -12,7 +13,7 @@ function Navbar() {
             <div className="navbar-container">
                 <nav>
                     <div>
-                        <button className="navbar-toggler" id="navbar-toggler">{/**Hamburger svg or icon doesn't matter which*/}Menu</button>
+                        {/**Sidebar component will go somewhere in here, need to get it functional and styled first */}
                         <div className="" id="">
                             <ul>
                                 <li>Hotels</li>
